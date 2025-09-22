@@ -1,0 +1,52 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.php
+/admin/
+/application/
+/install/
+/themes/
+/plugins/
+.htaccess
+*.conf
+build.xml
+/omeka/
+
+# Ignore logs
+*.log
+application/logs/
+
+# Ignore temporary files
+*.tmp
+*.swp
+/tmp/
+cache/
+
+# Backups
+*.sql
+*.sql.gz
+*.zip
+*.tar.gz
+*.bak
+*.old
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+# Ignore OS junk
+ehthumbs.db
+desktop.ini
+
+# Ignore vendor dependencies if using Composer
+/vendor/
+
+# Ignore sensitive Omeka database settings
+/db.ini
+/application/config/config.ini
+/files/
+files-backup.tar.gz
+
+# Ignore cache files
+/application/cache/
+/files/cache/

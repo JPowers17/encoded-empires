@@ -1,0 +1,35 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>A letter from Constance of Hungary (1233, January 21)</title>
+        <author>Constance of Hungary</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Jessica Powers</publisher>
+        <date>2025</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Transcription and translation from Epistolæ: https://epistolae.ctl.columbia.edu/</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>A letter from Constance of Hungary to the nuns of St. Peter in Olomuc (1233, January 21)</head>
+        <opener>
+          <dateline><date when="1233-01-21">1233, January 21</date></dateline>
+          <salute>In the name of the holy trinity.</salute>
+        </opener>
+        <p>In the name of the holy trinity. Let it be known to all who see this page in the present as well as the future, that I <persName><forename>Constance</forename>, by the grace of <name type="deity">God</name> <roleName>queen</roleName> of <placeName>Bohemia</placeName>, with my son <persName><forename>Premysl</forename></persName>, by that same grace <roleName>marquis</roleName> of <placeName>Moravia</placeName></persName>, for the good of our souls and those of our predecessors, confer the land belonging to the castrum of <placeName>Novy Hradek</placeName> in the town called <placeName>Drozdovice</placeName> on the devout/devoted virgins serving <name type="deity">Christ</name> at the <orgName>church of St. Peter</orgName> in <placeName>Olomuc</placeName> to possess by hereditary right peacefully in perpetuity.</p>
+        <p>[We] grant freedom fully and absolutely to the poor residing on their farm in said town which they long ago conferred on the <orgName>bishopric of Olomuc</orgName>. We did this with the <persName><roleName>noble man</roleName> <forename>Albert</forename></persName> who then held the castrum of <placeName>Novy Hradek</placeName>, to whom the land belonged by reason of that castrum, he being present and offering benevolent consent and favor to our grant.</p>
+        <p>And so that our charity may remain stable and certain, we had this charter confirmed by the reinforcement of our seals. Witnesses to this are: <persName><forename>Woch</forename> <roleName>chamberlain</roleName></persName>, <persName><forename>Holach</forename> <roleName>prefect of the city</roleName> <placeName>(purcravius)</placeName></persName>, <persName><forename>Preborn</forename> <roleName>judge</roleName></persName>; <persName><forename>Onex</forename>, <persName><forename>Semizlas</forename>, <persName><forename>Spitata</forename>, <persName><forename>Slavata</forename>, <persName><forename>Mztata</forename>, <roleName>castellans</roleName> of <placeName>Olomuc</placeName></persName></persName></persName></persName></persName>, <persName><forename>John</forename> <roleName>deacon</roleName></persName>, <persName><forename>Radozlaus</forename> <roleName>archdeacon</roleName> of <placeName>Olomuc</placeName></persName>, <persName><forename>Moyses</forename> <roleName>archdeacon</roleName> of <placeName>Brezlav</placeName></persName>, <persName><forename>Nicholas</forename> <roleName>archdeacon</roleName> of <placeName>Brno</placeName></persName>, <persName><forename>Alexius</forename> and <persName><forename>Henry</forename>, <roleName>canons</roleName> of <placeName>Olomuc</placeName></persName></persName>.</p>
+        <p>Enacted in <placeName>Olomuc</placeName>, 12th kalends of February, in the <date>1233rd</date> year of the lord's incarnation.</p>
+        <closer>
+          <signed>Enacted in Olomuc, 12th kalends of February, in the 1233rd year of the lord's incarnation.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

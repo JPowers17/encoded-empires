@@ -1,0 +1,36 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>A letter from Constance of Hungary (1235, February 12)</title>
+        <author>Constance of Hungary</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Jessica Powers</publisher>
+        <date>2025</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Transcription and translation from Epistolæ: https://epistolae.ctl.columbia.edu/</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>A letter from Constance of Hungary to the public (1235, February 12)</head>
+        <opener>
+          <dateline><date when="1235-02-12">1235, February 12</date></dateline>
+          <salute>Constance, by the grace of God queen of the Bohemians, greetings to all the faithful of Christ who will see this writing in true salvation.</salute>
+        </opener>
+        <p><persName><forename>Constance</forename>, by the grace of <name type="deity">God</name> <roleName>queen</roleName> of the <name type="ethnic">Bohemians</name></persName>, greetings to all the faithful of <name type="deity">Christ</name> who will see this writing in true salvation.</p>
+        <p>Let the present age of men as well as the future that will come in <name type="deity">Christ</name> know that we have conferred on the <orgName>hospital of the monastery of St. Francis</orgName> in <placeName>Prague</placeName> of <persName><roleName>lady</roleName> <forename>Agnes</forename></persName>, our beloved and illustrious daughter, all the heredity which we bought from the brothers of the <orgName>hospital of St. Mary of the house of Teutonic Knights</orgName> for the good of our soul, namely the towns: <placeName>Hloubetin</placeName> with all the villages appertaining to it, that is <placeName>Humenec</placeName>, <placeName>Hnidosice</placeName> and also the town of <placeName>Borotice</placeName> with all the villages appertaining to it, that is <placeName>Zupanovice</placeName>, <placeName>Drazetice</placeName>, and the <orgName>church of St. Peter</orgName> with the court and town <placeName>Ribinic</placeName> with its appurtenances.</p>
+        <p>We have handed over said towns to said hospital with all the fields, woods, waters, heredities, men, and all other things appertaining to them to be possessed by perpetual right, except that we wish to be the lady [authority in control] of its fruits until the end of our life, so that we might do with them what seems appropriate to us according to <name type="deity">God</name>.</p> 
+        <p>So that this donation to the hospital may remain valid, stable, and undisturbed in perpetuity, we have had it confirmed by the force of our seal. Witnesses to this act are: <persName><forename>Stephen</forename> <surname>Kersiz</surname>, Slava <roleName>judge</roleName> of <placeName>Brecizlav</placeName></persName>, <persName><forename>Nimirus</forename> of <placeName>Posna</placeName></persName>, <persName><forename>Jesuthbor</forename> <surname>Witoviz</surname></persName>, <persName><forename>Bun</forename> <surname>Sdizlaviz</surname></persName>, <persName><forename>Ninco</forename> <roleName>marshal</roleName></persName>, <persName><forename>Wiceto</forename> <roleName>judge</roleName> of <placeName>Pribizlaus</placeName></persName>, <persName><forename>Wseborius</forename> of <placeName>Lesonice</placeName></persName>, <persName><forename>Ruth</forename> son of <persName><forename>Radost</forename></persName></persName>, <persName><forename>Demetrius</forename> of <placeName>Dolany</placeName></persName>, <persName><forename>Milota</forename> son of <persName><forename>Jarognev</forename></persName></persName>, <persName><forename>Pelei</forename> and <persName><forename>Wlaken</forename> sons of <persName><forename>Vol</forename></persName></persName></persName>, <persName><forename>Qwalec</forename> son of <persName><forename>Kwaliz</forename></persName></persName>, <persName><forename>Sudomir</forename> of <placeName>Zeravice</placeName></persName>, <persName><forename>Wizlas</forename> son of <persName><forename>Woizlai</forename></persName></persName>, <persName><forename>Peter</forename> son of <persName><forename>Kwalo</forename></persName></persName>. Also chaplains of the court: <persName><forename>Cois</forename> of <placeName>Slavicin</placeName></persName>, <persName><forename>Predwoi</forename> of <placeName>Neradice</placeName></persName>, <persName><forename>Lambert</forename> <roleName>layman</roleName> of <placeName>Lukov</placeName></persName>, <persName><forename>Bartholomew</forename> <roleName>layman</roleName> in <placeName>Kunowice</placeName></persName>, <persName><forename>Bertold</forename> <roleName>parishioner</roleName> in <placeName>Budejovice</placeName></persName>, <persName><forename>Absalon</forename> <roleName>layman</roleName> in <placeName>Bzenec</placeName></persName>, and several others.</p>
+        <p>Dated at <placeName>Brno</placeName> in the year of the lord <date>1235</date>, the day before the ides of February. We, <persName><forename>Wenceslas</forename>, fourth <roleName>king</roleName> of <placeName>Bohemia</placeName></persName>, have had the seal of our highness affixed to confirm and reinforce the donation, all the aforesaid which our mother conferred on the <orgName>hospital of the monastery of St. Francis</orgName> of our beloved sister <persName><forename>Agnes</forename></persName>.</p>
+        <closer>
+          <signed>We, Wenceslas, fourth king of Bohemia, have had the seal of our highness affixed to confirm and reinforce the donation, all the aforesaid which our mother conferred on the hospital of the monastery of St. Francis of our beloved sister Agnes.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

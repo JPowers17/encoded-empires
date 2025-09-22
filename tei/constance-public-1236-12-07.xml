@@ -1,0 +1,35 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>A letter from Constance of Hungary (1236, December 7)</title>
+        <author>Constance of Hungary</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Jessica Powers</publisher>
+        <date>2025</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Transcription and translation from Epistolæ: https://epistolae.ctl.columbia.edu/</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>A letter from Constance of Hungary to the public (1236, December 7)</head>
+        <opener>
+          <dateline><date when="1236-12-07">1236, December 7</date></dateline>
+          <salute>Constance, by the grace of god queen of the Bohemians, to all the faithful of Christ to whom the present letters come, greetings in the Lord.</salute>
+        </opener>
+        <p><persName><forename>Constance</forename>, by the grace of <name type="deity">god</name> <roleName>queen</roleName> of the <name type="ethnic">Bohemians</name>, to all the faithful of <name type="deity">Christ</name> to whom the present letters come, greetings in the <name type="deity">Lord</name></persName>.</p>
+        <p>By the testimony of the presents, we profess that the church in <placeName>Werben (Vrbno)</placeName> received with full integrity a tithe from the town or the estate of the <orgName>Crusaders from the Teutonic house called Repin</orgName> by dower right from the time that we first came to <placeName>Bohemia</placeName>, with no one resisting, neither in our presence nor in the presence of our husband, the illustrious <persName><roleName>king</roleName> of <placeName>Bohemia</placeName></persName> of happy memory.</p>
+        <p>Now truly, since the said church was bestowed on the <orgName>hospital of St. Francis</orgName>, which our illustrious daughter <persName><roleName>lady</roleName> <forename>Agnes</forename> established in <placeName>Prague</placeName></persName>, said <orgName>Crusaders of the Teutonic house</orgName> denied said tithe to said hospital against justice, which we say with pure conscience/knowledge.</p>
+        <p>In witness of which thing we have conferred the present page fortified by the protection of our seal. Dated at <placeName>Tisnov</placeName>, 7th ides of December, in the year <date>1236-7</date>.</p>
+        <closer>
+          <signed>Dated at Tisnov, 7th ides of December, in the year 1236-7.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

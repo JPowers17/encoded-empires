@@ -1,0 +1,35 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>A letter from Constance of Hungary (1222)</title>
+        <author>Constance of Hungary and Premysl Otakar I</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Jessica Powers</publisher>
+        <date>2025</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Transcription and translation from Epistolæ: https://epistolae.ctl.columbia.edu/</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>A letter from Constance of Hungary to the monastery of Rajhrad (1222)</head>
+        <opener>
+          <dateline><date when="1222">1222</date>, <placeName>Brno</placeName></dateline>
+          <salute>In the name of the holy and individual trinity.</salute>
+        </opener>
+        <p>In the name of the holy and individual trinity. <persName><forename>Otakar</forename> (and) <forename>Premysl</forename></persName>, by the grace of <name type="deity">god</name> <roleName>king</roleName> of the <name type="ethnic">Bohemians</name>, and <persName><roleName>queen</roleName> <forename>Constance</forename></persName>.</p>
+        <p>So that those things, which have been piously and prudently disposed by us, not be changed by men in the course of time, but remain stable and strong perpetually, we make known to all in the present and the future, that that toll [theloneum] which was first paid in <placeName>Brodskih</placeName> of old, of which toll the <orgName>convent of Rajhrad</orgName> received a seventeenth, we transferred said toll for our greater ease/benefit to <placeName>Kunovice</placeName>; establishing this to be observed by all inviolably and perpetually, that the said <orgName>convent of Rajhrad</orgName> should receive the seventeenth part of that toll through its proctor in <placeName>Kunovice</placeName> without any contradiction, nor should anyone dare to increase that toll.</p>
+        <p>Moreover we confirm to that <orgName>convent of Rajhrad</orgName> the tenth cask of the vineyard commonly called <placeName>Mirozlav</placeName>, which our brother of good memory, <persName><forename>Vladizlaus</forename></persName>, gave them; establishing that that tenth of said vineyard be paid fully and wholly to said convent. In perpetual memory and inviolable confirmation of this our donation and confirmation, we have had the present page written and fortified by the protection of our seals, with the added witness of our court of honest and upright men, whose names follow: <persName><forename>Robert</forename>, <roleName>bishop</roleName> of <placeName>Olomuc</placeName></persName>, <persName><forename>Bawar</forename>, <roleName>chamberlain</roleName> of <placeName>Olomuc</placeName></persName>, <persName><forename>Ratibor</forename>, <roleName>judge</roleName> of <placeName>Brno</placeName></persName>, <persName><forename>Leo</forename>, <roleName>chamberlain</roleName> of <placeName>Brno</placeName></persName>, <persName><forename>Stephen</forename> of <placeName>Medlov</placeName></persName>, <persName><forename>Ditrict</forename> <roleName>townsman</roleName> of <placeName>Brno</placeName></persName>, <persName><forename>Sdizlaus</forename> <roleName>provost</roleName> of <placeName>Brno</placeName></persName>, <persName><forename>Conrad</forename> <roleName>scribe</roleName> of <placeName>Brno</placeName></persName>, and many others.</p>
+        <p>Enacted at <placeName>Brno</placeName>, in the year of the lord's incarnation, <date>1222</date>, 10th indiction. Given by the hand of <persName><forename>Hermann</forename>, <roleName>notary</roleName> of the king</persName>.</p>
+        <closer>
+          <signed>Given by the hand of Hermann, notary of the king.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

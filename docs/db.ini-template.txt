@@ -1,0 +1,12 @@
+db.ini template:
+
+[database]
+host     = localhost
+username = your_username
+password = your_password
+dbname   = your_db_name
+prefix   = omeka_
+charset  = utf8
+port     = 3306*
+
+*Or port 3307 if you already have a program with MySQL, which will be running from port 3306 already.
