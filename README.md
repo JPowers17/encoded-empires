@@ -24,7 +24,7 @@ Together, these tools created a workflow that combined careful text preparation 
 
 ## Repository Structure
 
-├── docs/ ----------------- Technical notes, db.ini template, license
+├── docs/ ----------------- Technical notes, VM settings and setup instructions, db.ini template, license
 
 ├── plain-text/ ------------ Plain text versions of Constance's letters
 

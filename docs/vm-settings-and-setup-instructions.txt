@@ -1,0 +1,78 @@
+My VM Settings (Free Tier):
+Name: omeka-server
+Location: us-east4-a
+Machine type: e2-micro
+Boot disk: Ubuntu 22.04 LTS x86_64
+Firewall Settings: Allow HTTP traffic, Allow HTTPS traffic
+
+VPC: default VPC
+
+IP: Static IP 35.212.127.140
+
+
+Basic Setup Instructions You Can Follow:
+Done in the SSH terminal of the VM once it's set up.
+
+1. Update Packages
+sudo apt update && sudo apt upgrade -y
+
+2. Install Apache
+sudo apt install apache2 -y
+
+sudo systemctl start apache2
+sudo systemctl enable apache2
+
+In browser, enter the VM’s external IP address to see the default Apache2 Ubuntu page.
+
+3. Install + Secure MariaDB
+sudo apt install mariadb-server -y
+
+sudo systemctl start mariadb
+sudo systemctl enable mariadb
+
+sudo mysql_secure_installation
+
+Set a root password.
+Remove anonymous users.
+Disallow root login remotely.
+Remove test database.
+Reload privilege tables.
+
+4. Install PHP + Required Extensions
+sudo apt install php libapache2-mod-php php-mysql php-xml php-curl php-mbstring php-zip php-gd -y
+
+5. Restart Apache to Load PHP Module
+sudo systemctl restart apache2
+
+6. Upload Omeka Files
+Use SCP from computer terminal
+or
+Use the Upload File feature in the SSH terminal (used for this project).
+
+7. Set Permissions
+sudo chown -R www-data:www-data /var/www/html
+sudo chmod -R 755 /var/www/html
+
+8. Import Omeka MySQL Database:
+Login to MariaDB.
+
+sudo mysql -u root -p
+
+CREATE DATABASE your_db DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+CREATE USER 'your_username'@'localhost' IDENTIFIED BY 'your_password';
+GRANT ALL PRIVILEGES ON your_db.* TO 'your_username'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+
+Import the database: mysql -u your_username -p your_db < /path/to/omeka_db.sql
+
+9. Configure Omeka’s db.ini to Connect to the Database:
+username = "your_username"
+password = "your_password"
+dbname = "your_db"
+host = "localhost"
+
+10. Visit the VM’s External IP in Browser
+Should see live Omeka site.
+
+
