@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a digital humanities exploration of four medieval letters written by Constance of Hungary, queen consort of Bohemia in the 13th century. Using text encoding (TEI/XML), Voyant Tools, and Omeka Classic paired with the Exhibit Builder plugin, the project analyzes the rhetoric of royal correspondence, highlighting themes of authority, piety, and female political influence. This exhibit can be viewed on my website, [theroyalarchives.org](https://www.theroyalarchives.org/). Deployed and hosted on a GCP VM.
+This project is a digital humanities exploration of four medieval letters written by Constance of Hungary, queen consort of Bohemia in the 13th century. Using text encoding (TEI/XML), Voyant Tools, and Omeka Classic paired with the Exhibit Builder plugin, the project analyzes the rhetoric of royal correspondence, highlighting themes of authority, piety, and female political influence. Originally deployed and hosted on a GCP VM and viewed on my website, theroyalarchives.org. Now documented and preserved in GitHub.
 
 ## Purpose
 
@@ -24,17 +24,25 @@ Together, these tools created a workflow that combined careful text preparation 
 
 ## Repository Structure
 
-├── docs/ ----------------- Technical notes, VM settings and setup instructions, db.ini template, license
+├── docs/ --------------------------------------- Technical notes, VM settings and setup instructions, db.ini template, license
 
-├── plain-text/ ------------ Plain text versions of Constance's letters
+├── exhibit-page-screenshots/ ---------------- Screenshots of the exhibit pages, exhibit page order doc
 
-├── tei/ -------------------- Encoded XML versions of Constance's letters
+├── exhibit-page-text-pdfs/ ------------------- PDFs of the exhibit pages text, exhibit page order doc
 
-├── voyant/ --------------- Voyant Analysis screenshots
+├── item-metadata-screenshots/ ------------- Screenshots of the item metadata pages
 
-├── .gitignore ------------- The .gitignore for this project
+├── item-metadata-text-pdfs/ ---------------- PDFs of the item metadata pages text
 
-└── README.md ---------- Project overview
+├── plain-text/ --------------------------------- Plain text versions of Constance's letters
+
+├── tei/ ----------------------------------------- Encoded XML versions of Constance's letters
+
+├── voyant/ ------------------------------------ Voyant Analysis screenshots
+
+├── .gitignore ---------------------------------- The .gitignore for this project
+
+└── README.md ------------------------------- Project overview
 
 ## Key Findings
 
