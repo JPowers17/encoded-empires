@@ -1,52 +1,40 @@
-# Ignore system files
-.DS_Store
-Thumbs.db
-*.php
-/admin/
-/application/
-/install/
-/themes/
-/plugins/
-.htaccess
-*.conf
-build.xml
-/omeka/
-
-# Ignore logs
+# Omeka / PHP / OS / Editor
+/vendor/
+/node_modules/
 *.log
-application/logs/
-
-# Ignore temporary files
-*.tmp
-*.swp
-/tmp/
-cache/
-
-# Backups
 *.sql
 *.sql.gz
 *.zip
 *.tar.gz
+*.env
+.env.local
+*.pem
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.idea/
+.vscode/
+/omeka/
+*.php
+*.conf
+build.xml
+
+# Omeka-specific
+/files/
+files-backup.tar.gz
+/db.ini
+application/config/config.ini
+application/logs/
+tmp/
+cache/
+private/
+
+# Backups
+backups/
 *.bak
 *.old
 
-# Ignore IDE/editor files
-.vscode/
-.idea/
-
-# Ignore OS junk
+# OS stuff
 ehthumbs.db
 desktop.ini
-
-# Ignore vendor dependencies if using Composer
-/vendor/
-
-# Ignore sensitive Omeka database settings
-/db.ini
-/application/config/config.ini
-/files/
-files-backup.tar.gz
-
-# Ignore cache files
-/application/cache/
-/files/cache/
