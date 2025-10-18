@@ -12,37 +12,59 @@ This project set out to explore how digital tools can be applied to the study of
 
 This project used a combination of humanities-centered and technical approaches:
 
-- **TEI/XML** was employed to encode the letters, highlighting key people, places, and institutions.
+- TEI/XML was employed to encode the letters, highlighting key people, places, and institutions.
 
-- **Voyant** Tools provided text analysis for word frequency, trends, and context. Both per-letter and corpus-wide analyses were done.
+- Voyant Tools provided text analysis for word frequency, trends, and context. Both per-letter and corpus-wide analyses were done.
 
-- **Dublin Core metadata** structured the descriptive information for each item.
+- Dublin Core metadata structured the descriptive information for each item.
 
-- **Omeka Classic** hosted the digital collection and exhibited both the primary sources and analytical findings.
+- Omeka Classic hosted the digital collection and exhibited both the primary sources and analytical findings.
 
 Together, these tools created a workflow that combined careful text preparation with computational analysis and public presentation.
 
 ## Repository Structure
 
-├── docs/ --------------------------------------- Technical notes, VM settings and setup instructions, db.ini template, license
-
-├── exhibit-page-screenshots/ ---------------- Screenshots of the exhibit pages, exhibit page order doc
-
-├── exhibit-page-text-pdfs/ ------------------- PDFs of the exhibit pages text, exhibit page order doc
-
-├── item-metadata-screenshots/ ------------- Screenshots of the item metadata pages
-
-├── item-metadata-text-pdfs/ ---------------- PDFs of the item metadata pages text
-
-├── plain-text/ --------------------------------- Plain text versions of Constance's letters
-
-├── tei/ ----------------------------------------- Encoded XML versions of Constance's letters
-
-├── voyant/ ------------------------------------ Voyant Analysis screenshots
-
-├── .gitignore ---------------------------------- The .gitignore for this project
-
-└── README.md ------------------------------- Project overview
+```
+encoded-empires/
+├─ docs/
+│ ├─ db.ini-template.txt
+│ ├─ technical-notes.md
+│ └─ vm-settings-and-setup-instructions.txt
+├─ exhibit-page-screenshots/
+│ ├─ screenshots
+│ └─ exhibit-page-order.txt
+├─ exhibit-page-text-pdfs/
+│ ├─ PDFs
+│ └─ exhibit-page-order.txt
+├─ item-metadata-screenshots/
+│ └─ screenshots
+├─ item-metadata-text-pdfs/
+│ └─ PDFs
+├─ plain-text/
+│ ├─ constance-olomuc-1233-01-21.txt
+│ ├─ constance-public-1235-02-12.txt
+│ ├─ constance-public-1236-12-07.txt
+│ └─ constance-rajhrad-1222.txt
+├─ tei/
+│ ├─ constance-olomuc-1233-01-21.xml
+│ ├─ constance-public-1235-02-12.xml
+│ ├─ constance-public-1236-12-07.xml
+│ └─ constance-rajhrad-1222.xml
+├─ voyant/
+│ ├─ constance-olomuc-1233-01-21/
+│    └─ screenshots
+│ ├─ constance-public-1235-02-12/
+│    └─ screenshots
+│ ├─ constance-public-1236-12-07/
+│    └─ screenshots
+│ ├─ constance-rajhrad-1222/
+│    └─ screenshots
+│ └─ full-corpus/
+│    └─ screenshots
+├─ .gitignore
+├─ LICENSE
+├─ README.md
+```
 
 ## Key Findings
 
@@ -80,4 +102,4 @@ If you would like to give Omeka Classic and exhibit building a try yourself:
 
 ## Tags
 
-Digital Humanities, Omeka Classic, Laragon, ImageMagick, TEI, Voyant Tools, Dublin Core, Metadata, Cloud Deployment, Cloud Hosting, Linux, Apache, MySQL, MariaDB, PHP
+Digital Humanities • Omeka Classic • Laragon • ImageMagick • TEI • Voyant Tools • Dublin Core • Metadata • Cloud Deployment • Cloud Hosting • Linux • Apache • MySQL • MariaDB • PHP
